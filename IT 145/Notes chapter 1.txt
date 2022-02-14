@@ -1,0 +1,85 @@
+System.out.print(); - print an output
+Scanner scnr = new Scanner(System.in); - place input
+Input = scnr.nextInt(); - attach the next input
+System.out.println(); - print an output with new line
+// - single line comment not putting the comment in the coding
+/* */ - double line comment not putting the comment in the coding.
+int - numbers without decimals and are countable.
+identifier - A name created by a programmer for an item like a variable or method.
++ - addition sign.
+- - subtraction sign.
+* - multiplication sign.
+/ - division sign.
+() - paranthesis go first.
+-x = without x is negative sign. is the second to go first.
+*, /, % - goes third.
++, - - goes 4th.
+left to right - last.
+compound operator = -=, +=, /=, *= - shortens the coding but means the same without if the same string is on both sides.
+no commas - no commas in numbers.
+floating pount number = 33.33 - has a decimal point.
+double - represents the decimal point number and is not countable.
+Scanner's nextDouble() is scnr.nextDouble() - method is used to read a floating-point value from input.
+doubles vs int - Integer variables are typically used for values that are counted, like 42 cars, 10 pizzas, or -95 days.
+		Floating-point variables are typically used for values that are measured, like 98.6 degrees, 0.00001 meters, or -666.667 grams.
+		Floating-point variables are also used when dealing with fractions of countable items, such as the average number of cars per household.
+int example for division - y = 10 / 4;.
+double example for division - y = 10 / 4.0; , 10.0 / 4;, y = 10.0 / 4.0;.
+
+infinity or -infinity - Dividing a nonzero floating-point number by zero
+Not a number (NaN) - If the dividend and divisor in floating-point division are both 0.
+long - used for integers expected to exceed about 2 billion.
+byte myVar; - -128 to 127.
+short myVar; - -32,768 to 32,767.
+int myVar; - -2,147,483,648 to 2,147,483,647.
+long myVar; - -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+float x; - -3.4x10^38 to 3.4*^1038.
+double x; - -1.7x10^308 to 1.7*^10308.
+overflow - occurs when the value being assigned to a variable is greater than the maximum value the variable can store.
+constant variable - An initialized variable whose value cannot change.
+final variable - constant variable.
+final variable example - final double SPEED_OF_SOUND   = 761.207; // Miles/hour (sea level).
+modulo operator - %.
+% - evaluates the remainder of the division of two integer operands.
+% example - 23 % 10 is 3.
+Random number in range example - randNum % 10 Yields 0 - 9: Possible remainders are 0, 1, ..., 8, 9. Remainder 10 is not possible: Ex: 19 % 10 is 9, but 20 % 10 is 0.
+				randNum % 51 Yields 0 - 50: Note that % 50 would yield 0 - 49.
+				(randNum % 9) + 1 Yields 1 - 9: The % 9 yields 9 possible values 0 - 8, so the + 1 yields 1 - 9.
+				(randNum % 11) + 20 Yields 20 - 30: The % 11 yields 11 possible values 0 - 10, so the + 20 yields 20 - 30. 
+type conversion - a conversion of one data type to another, such as an int to a double.
+implicit conversion - The compiler automatically performs several common conversions between int and double types, such automatic conversion.
+type cast - explicitly converts a value of one type to another type.
+(double)myIntVar - converts int 7 to double 7.0.
+character literal - char.
+char - surrounded with single quotes, as in myChar = 'm';.
+next() - gets the next sequence of non-whitespace characters (as a string).
+charAt(0) - gets the first character in that string.
+escape sequence - Escape sequence	Char
+			\n	-	newline
+			\t	-	tab
+			\'	-	single quote
+			\"	-	double quote
+			\\	-	backslash.
+Outputting multiple character variables with one output statement - System.out.print("" + c1 + c2);.
+string  - a sequence of characters.
+string literal- surrounds a character sequence with double quotes.
+object  - onsists of some internal data items plus operations that can be performed on that data.
+object example - String movieTitle = "Frozen";.
+movieTitle = favoriteMovie; - Assigning one String variable to another String variable causes both variables to refer to the same String, and does not create a new String.
+String firstMonth = "January"; - A programmer can initialize a string variable during declaration.
+scnr.nextLine()-gets all remaining text on the current input line, up to the next newline character (which is removed from input but not put in stringVar).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
